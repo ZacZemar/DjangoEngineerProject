@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #4b79a1, #283e51); /* Gradient background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  h1 {
+    color: #343a40; /* Dark color for better contrast */
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 400px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    position: relative;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  li.selected {
+    background-color: #f0f8ff;
+  }
+  
+  h2 {
+    margin-top: 0;
+    color: #343a40; /* Dark color for better contrast */
+  }
+  
+  p, strong {
+    color: #343a40; /* Dark color for better contrast */
+  }
+  
+  input[type="text"] {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    display: block;
+  }
+  
+  button {
+    background-color: #343a40;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    width: 100%;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  button:not(:disabled):hover {
+    background-color: #495057;
+  }
+  
+  .major-details {
+    margin-top: 10px;
+  }
+  
+  .scroll-container {
+    max-height: 400px; /* Set maximum height for the scrollable container */
+    overflow-y: auto; /* Enable vertical scrolling */
+    margin-bottom: 10px;
+  }
+  
+  .compare-container {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
